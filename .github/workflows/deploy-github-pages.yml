@@ -45,7 +45,9 @@ jobs:
       - name: Generate kdocs
         run: ./gradlew dokkaGenerate
 
+      - run: npm install
       - run: npm ci
+
       - run: hugo --baseURL https://${REPO_OWNER}.github.io/${REPO_NAME} --minify
 
       - name: Deploy
