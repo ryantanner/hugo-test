@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Foobar</title><link>https://ryantanner.github.io/hugo-test/</link><description>Recent content on Foobar</description><generator>Hugo</generator><language>en</language><atom:link href="https://ryantanner.github.io/hugo-test/index.xml" rel="self" type="application/rss+xml"/><item><title>About Foobar</title><link>https://ryantanner.github.io/hugo-test/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ryantanner.github.io/hugo-test/about/</guid><description>&lt;section id="td-cover-block-0" class="row td-cover-block td-cover-block--height-auto js-td-cover td-overlay td-overlay--dark -bg-dark">
+ &lt;div class="col-12">
+ &lt;div class="container td-overlay__inner">
+ &lt;div class="text-center">
+ &lt;h1 class="display-1 mt-0 mt-md-5 pb-4">About Foobar&lt;/h1>
+ 
+ &lt;div class="pt-3 lead">
+ 
+ 
+ 
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+&lt;/section>
+
+&lt;div>&lt;a id="td-block-1" class="td-offset-anchor">&lt;/a>&lt;/div>
+&lt;section class="row td-box td-box--1 td-box--height-auto">
+&lt;div class="col">
+&lt;div class="container">
+&lt;p>We envision Foobar as the next-generation application runtime for product engineering teams.&lt;/p>
+&lt;p>To achieve this, we focus on our core mission to empower product developers by delivering a seamless and efficient developer experience. We strive to maximize productivity and spark creativity through simplified APIs, improved performance, and the cultivation of team autonomy.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Foobar Roadmap</title><link>https://ryantanner.github.io/hugo-test/roadmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ryantanner.github.io/hugo-test/roadmap/</guid><description>&lt;section id="td-cover-block-0" class="row td-cover-block td-cover-block--height-auto js-td-cover td-overlay td-overlay--dark -bg-dark">
+ &lt;div class="col-12">
+ &lt;div class="container td-overlay__inner">
+ &lt;div class="text-center">
+ &lt;h1 class="display-1 mt-0 mt-md-5 pb-4">Foobar Roadmap&lt;/h1>
+ 
+ &lt;div class="pt-3 lead">
+ 
+ &lt;p class="mt-5">Feature Support in the Engine and API.&lt;/p>
+
+ 
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+&lt;/section>
+
+&lt;div>&lt;a id="td-block-1" class="td-offset-anchor">&lt;/a>&lt;/div>
+&lt;section class="row td-box td-box--white td-box--height-auto">
+&lt;div class="col">
+&lt;div class="container">
+&lt;h2 id="feature-support">Feature Support&lt;a class="td-heading-self-link" href="#feature-support" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Name&lt;/th>
+ &lt;th>Status&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Resolvers MVP&lt;/td>
+ &lt;td>Released&lt;/td>
+ &lt;td>&lt;a href="https://ryantanner.github.io/hugo-test/docs/getting_started/">/docs/getting_started&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Object Mapping&lt;/td>
+ &lt;td>Under Development&lt;/td>
+ &lt;td>Object mapping allows the mapping of a generic object type (like a Thrift object type) to a GraphQL type.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Factory Types&lt;/td>
+ &lt;td>Planned for Q4 &amp;lsquo;25&lt;/td>
+ &lt;td>Factory types are a straight-forward way for tenants to share functions in a Kotlin-native manner without breaking our principle of interacting “only through the graph.” More specifically, a factory type defines one or more factory functions that can be used by other modules to construct GRTs.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Named Fragments&lt;/td>
+ &lt;td>Planned for Q3 &amp;lsquo;25&lt;/td>
+ &lt;td>Reusable part of a GraphQL query that you can define once and use in multiple required selection sets.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Visibility&lt;/td>
+ &lt;td>Planned for Q4 &amp;lsquo;25&lt;/td>
+ &lt;td>Implement a @visibility directive that controls what internal module code can see.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Subscriptions&lt;/td>
+ &lt;td>Planned for H1 &amp;lsquo;26&lt;/td>
+ &lt;td>Support for &lt;a href="https://graphql.org/learn/subscriptions/">GraphQL Subscriptions&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Parent/Child Relationships&lt;/td>
+ &lt;td>Planned for H1 &amp;lsquo;26&lt;/td>
+ &lt;td>In the context of Foobar, parent-child relationships define hierarchical or associated data relationships across GraphQL types. These relationships allow one type (the parent) to reference or contain another type (the child), enabling structured data querying and retrieval.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>AI generated mock data&lt;/td>
+ &lt;td>Planned for H1 &amp;lsquo;26&lt;/td>
+ &lt;td>When testing Foobar resolvers, engineers need to manually mock out data for these fragments, which is time-consuming and can eventually lead to mocks getting out of sync with the fragments they implement as resolvers evolve over time. This effort will aid with auto-generating mock data.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Connections&lt;/td>
+ &lt;td>Planned for H1 &amp;lsquo;26&lt;/td>
+ &lt;td>Support for &lt;a href="https://relay.dev/graphql/connections.htm">GraphQL Connections&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item></channel></rss>
